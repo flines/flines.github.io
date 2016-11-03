@@ -5,9 +5,13 @@
     <script>
     	seajs.config({
     		base: "./javascripts/",
+        alias:{
+          "jquery":"jquery.js",
+          "ramda": "ramda.js"
+        },
     		paths:{
-    			"jquery": "..https://cdn.bootcss.com/jquery/2.1.1/jquery.js",
-    			"ramda":"https://cdn.bootcss.com/ramda/0.13.0/ramda.js"
+    			"jquery": "//cdn.bootcss.com/jquery/2.1.1/jquery.js",
+    			"ramda":"//cdn.bootcss.com/ramda/0.13.0/ramda.js"
     		}
     	});
     	seajs.use("index.js");

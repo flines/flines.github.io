@@ -1,5 +1,19 @@
-[
-	{"src":"//www.baidu.com/img/bd_logo1.png"},
-	{"src":"//www.baidu.com/img/bd_logo1.png"},
-	{"src":"//www.baidu.com/img/bd_logo1.png"}
-]
+{
+	"items":[
+		{
+			"media":{
+				"m":"//www.baidu.com/img/bd_logo1.png"
+			}
+		},
+		{
+			"media":{
+				"m":"//www.baidu.com/img/bd_logo1.png"
+			}
+		},
+		{
+			"media":{
+				"m":"//www.baidu.com/img/bd_logo1.png"
+			}
+		}
+	]
+}

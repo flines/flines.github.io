@@ -1,6 +1,8 @@
 define(function(require, exports, module){
 	var $ = require("jquery");
 	var _ = require("ramda");
+	$=window.jQuery;
+	_=window.R;
 
 	var Impure = {
       getJSON: _.curry(function(callback, url) {
